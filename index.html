@@ -21,6 +21,13 @@
         <![endif]-->
 
         <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-34732780-1']);
+            _gaq.push(['_trackPageview']);
+        </script>
+
     </head>
 
     <body>
@@ -46,7 +53,7 @@
             <div class="hero-unit">
                 <h1>Need CS help?</h1>
                 <p>You're in the right place. CSUG offers free tutoring for all CS courses.</p>
-                <p><a class="btn btn-primary btn-large" href="https://www.google.com/calendar/embed?src=04lnqg1jsbtupnkq09esf5ccpo%40group.calendar.google.com&ctz=America/New_York">See our schedule &raquo;</a></p>
+                <p><a class="btn btn-primary btn-large" href="https://www.google.com/calendar/embed?src=04lnqg1jsbtupnkq09esf5ccpo%40group.calendar.google.com&amp;ctz=America/New_York" onClick="_gaq.push(['_trackEvent', 'Followup', 'Schedule']);">See our schedule &raquo;</a></p>
             </div>
 
             <div class="row">
@@ -93,16 +100,11 @@
         <script src="assets/js/bootstrap-typeahead.js"></script>
 
         <script type="text/javascript">
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-34732780-1']);
-            _gaq.push(['_trackPageview']);
-
             (function() {
              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
              })();
-
          </script>
 
      </body>
